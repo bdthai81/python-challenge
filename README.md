@@ -19,9 +19,9 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.jpg)
+![Revenue](Images/02-Homework_03-Python_Instructions_Images_revenue-per-lead.jpg)
 
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
+* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/PyBank_Resources_budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
 
 * Your task is to create a Python script that analyzes the records to calculate each of the following:
 
@@ -51,11 +51,11 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 ## PyPoll
 
-![Vote-Counting](Images/Vote_counting.jpg)
+![Vote-Counting](Images/02-Homework_03-Python_Instructions_Images_Vote_counting.jpg)
 
 * In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/PyPoll_Resources_election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
