@@ -6,7 +6,6 @@
 import os
 # Module for reading CSV files
 import csv
-import numpy as np
 
 # Read CVS File data set & return list with store data
 def readDataSet(csvpath):
@@ -29,9 +28,9 @@ def getAnalysis(ds):
 
     # declare and initialize variables with calculated results
     totalMonths = len(ds)
-    totalNet = np.sum([row[1] for row in ds])
+    totalNet = sum([row[1] for row in ds])
     changeList = [[val[0], val[1] - ds[idx][1]] for idx, val in enumerate(ds[1:])]
-    avgChange = np.average([row[1] for row in changeList])
+    avgChange = sum([row[1] for row in changeList])/len(changeList)
     maxProfit = max([row[1] for row in changeList])
     maxMonth = [row[0] for row in changeList if row[1] == maxProfit][0]
     minProfit = min([row[1] for row in changeList])

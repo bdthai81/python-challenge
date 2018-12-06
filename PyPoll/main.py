@@ -7,7 +7,6 @@
 import os
 # Module for reading CSV files
 import csv
-import numpy as np
 
 # Read CVS File data set & return list with store data
 def readDataSet(csvpath):
